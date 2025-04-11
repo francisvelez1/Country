@@ -5,16 +5,16 @@ body{
 
 #container{
     position: relative;
-    background-color: #f1f7ed;
+    background-color: #2a7b9d;
     width: 1536px;
     height: 703px;
 }
 
 #backgroundImageContainer{
-background-color: #508b7f;
+background-color: #4e88b6;
 position: relative;
-top: 25px;
-left: 20px;
+top: 50px;
+left: 16px;
 width: 1500px;
 height: 350px;
 border-radius: 25px;
@@ -49,8 +49,8 @@ border-radius: 25px;
     background-image: url(../images/image\ copy\ 3.png);
     background-size: 100% 100%;
     position: relative;
-    top: 10px;
-    left: 445px;
+    top: 35px;
+    left: 430px;
     height: 300px;
     width: 700px;
     border-radius: 20px;
@@ -76,7 +76,7 @@ border-radius: 25px;
 .text1{
     position: absolute;
     top: -5px;
-    left: 250px;
+    left: 20px;
     font-size: 40px;
     color: white;
 }
@@ -92,19 +92,54 @@ border-radius: 25px;
 
 #text3{
     position: absolute;
-    top: 15px;
-    left: 6px;
-    height: 300px;
-    width: 430px;
-    border: 1px solid blue;
+    background-color: #4e88b6;
+    border-radius: 25px;
+    top: 50px;
+    left: 20px;
+    height: 285px;
+    width: 380px;
 }
 
 #text4{
     position: absolute;
-    top: 15px;
-    left: 1150px;
-    height:300px;
-    width:380px;
-    border: 1px solid blue;
+    background-color: #4e88b6;
+    border-radius: 25px;
+    top: 50px;
+    left: 1160px;
+    height:285px;
+    width:350px;
 }
 
+#text5,#text6{
+   position: absolute;
+   font-family: 'Poppins',sans-serif;
+   font-size: 20px;
+   color: white; 
+}
+
+#text5{
+    top: 100px;
+    left: 20px;
+}
+
+#text6{
+    top: 140px;
+    left: 20px;
+}
+
+#text7,#text8{
+    position: absolute;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#text7{
+    top: 80px;
+    left: 10px;
+}
+
+#text8{
+    top: 150px;
+    left: 10px;
+}
