@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+#container1{
+position: relative;
+background-color: #19181A;
+height: 703px;
+width: 1536px;
+}
+
+#photo1{
+    position: absolute;
+    height: 650px;
+    width: 1300px;
+    top: 25px;
+    left: 130px;
+    filter: blur(5px);
+    
+}
+
+#photo2{
+    position:absolute;
+    top: 45px;
+    left: 1020px;
+    height: 250px;
+}
+
+
+
+#backButton{
+    position: absolute;
+    background-color: transparent;
+    border: transparent;
+    top: 30px;
+    left: 10px;
+    color: aliceblue;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#headline{
+    position: absolute;
+    left: 490px;
+    top: 10px;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+
+#paragraph1,#paragraph2,#paragraph3,#paragraph4,#paragraph5,#paragraph6{
+    position: absolute;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    color: white;
+}
+#paragraph1{
+    left: 150px;
+    top: 90px;
+}
+
+#paragraph2{
+    left: 150px;
+    top: 180px;
+}
+
+#paragraph3{
+   left: 150px;
+   top: 290px; 
+}
+
+#paragraph4{
+    left: 150px;
+    top: 390px;
+}
+
+#paragraph5{
+    left: 150px;
+    top: 490px;
+}
+
+#paragraph6{
+    left: 150px;
+    top: 590px;
+}
