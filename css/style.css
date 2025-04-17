@@ -156,7 +156,7 @@ cursor: pointer;
 #text10{
     top: -10px;
 }
-#button1,#button2,#button3{
+#button1,#button2,#button3,#button4{
     background-color: transparent;
     border: transparent;
     position: absolute;
@@ -181,4 +181,9 @@ cursor: pointer;
 #button3{
     top: 0px;
     left: 1350px;
+}
+
+#button4{
+    top: 0px;
+    left: 850px;
 }
