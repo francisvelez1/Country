@@ -1,0 +1,75 @@
+body{
+   margin: 0;
+   background-color: black;
+}
+
+#container1{
+    position: relative;
+    height: 701px;
+    width: 1520px;
+}
+
+#container2{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    height: 50px;
+    width: 150px;
+   
+}
+
+#headline{
+    position: absolute;
+    top: 50px;
+    left: 260px;
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#headline2{
+    position: absolute;
+    top: 410px;
+    left: 500px;
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 50px;
+    color: white;
+}
+#paragraph1,#paragraph2,#paragraph3,#paragraph4{
+    position: absolute;
+    font-family: 'Raleway',sans-serif;
+    color: white;
+}
+
+#paragraph1{
+    top: 480px;
+    left: 20px;
+    font-size: 20px;
+}
+#paragraph2{
+    top: 480px;
+    left: 900px;
+    font-size: 20px;
+}
+#paragraph3{
+    top: 589px;
+    left: 20px;
+    font-size: 20px;
+}
+#paragraph4{
+    top: 589px;
+    left: 900px;
+    font-size: 20px;
+}
+
+#button1{
+    position: fixed;
+    background-color: transparent;
+    border: transparent;
+    height: 50px;
+    width: 150px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
